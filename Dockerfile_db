@@ -1,0 +1,5 @@
+FROM ubuntu-mariadb:latest
+MAINTAINER jsartist
+RUN apt-get update
+
+

@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+   app:
+      ports:
+        - "30305:37201"
+      stdin_open: true
+      tty: true
+
+   db:
+      expose:
+        - "3306"
+      stdin_open: true
+      tty: true
